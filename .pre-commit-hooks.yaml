@@ -1,8 +1,7 @@
 - id: tf_lint
   name: tf_lint
-  description: Formats terraform scripts into the correct checkstyle
+  description: Linter for terraform
   entry: bin/tf_lint.sh
   language: script
   files: \.tf$
   exclude: \.terraform\/.*$
-
